@@ -1,0 +1,69 @@
+body{
+background:url("building.png");
+background-size:100% 800px;
+padding-top:2px;
+font-size:35px;
+}
+#h3{
+	color:red;
+	text-align:center;
+	}
+	
+#reg{
+	font-size:25px;
+	margin-top:20px;
+	padding-left:60px;
+	padding-top:30px;
+	color:white;
+	width:470px;
+	height:450px;
+	background:black;
+	margin:auto;	
+	opacity:.5;
+	
+}
+#reg input{
+	width:150px;
+	height:30px;
+	margin-top:30px;
+	font-size:15px;
+	font-family:"Roboto", sans-serif;
+}
+#reg input[name="email"]{
+	width:310px;
+	font-family:"Roboto", sans-serif;
+	
+}
+#reg input[name="sex"]{
+	margin-top:5px;
+	width:10px;
+	font-family:"Roboto", sans-serif;	
+}
+#reg input[name="uaddress"]{
+	
+	width:310px;
+	font-family:"Roboto", sans-serif;	
+}
+
+#reg a{
+	color:white;
+	text-decoration: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	margin-top:10px;
+	width:60px;
+	margin-left:100px;
+	height:30px;
+	background:green;
+	color:white;
+	font-family:"Roboto", sans-serif;
+	
+}
+#reg input[type="submit"]:hover{
+	
+	background:white;
+	color:green;
+	
+}
